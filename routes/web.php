@@ -134,6 +134,7 @@ Route::middleware(['preventBackHistory'])->group(function () {
 
         Route::controller(App\Http\Controllers\Restaurant\EnvSettingController::class)->group(function () {
             Route::get('environment/setting', 'show')->name('environment.setting');
+            Route::get('environment/instagram-story', 'instagramStory')->name('environment.instagram_story');
             Route::put('environment/setting', 'update')->name('environment.setting.update');
             Route::put('environment/setting-rest', 'updateRestaurant')->name('environment.setting.updateRestaurant');
             Route::put('environment/setting-admin', 'updateAdmin')->name('environment.setting.updateAdmin');

@@ -267,6 +267,11 @@ return
                 'menu'  => 'Settings',
                 'title' => 'Setting',
             ),
+        'instagram_story'     =>
+            array(
+                'menu'  => 'Instagram Story',
+                'title' => 'Setting',
+            ),
         'themes'          =>
             array(
                 'menu'  => 'Themes',

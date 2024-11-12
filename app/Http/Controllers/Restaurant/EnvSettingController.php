@@ -35,6 +35,22 @@ class EnvSettingController extends Controller {
             ]);
         }
     }
+      public function instagramStory()
+    {
+        $user = auth()->user();
+        // if($user->hasRole('admin'))
+        // {
+        //     $setting = Setting::find(1);
+        //     $stores = Restaurant::pluck('name', 'id')->toArray();
+        //     return view('admin.settings.create', compact('setting', 'stores'));
+        // } else
+        // {
+            $restaurant = $user->restaurant;
+            return view('restaurant.settings.instagram', [
+                'row' => $restaurant,
+            ]);
+        // }
+    }
 
     public function updateRestaurant(Request $request)
     {
