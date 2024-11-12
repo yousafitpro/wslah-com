@@ -18,10 +18,10 @@
 
 {{--<li><a href="{{ route('restaurant.get.QR') }}"> <i class="fas fa-qrcode font-size-18"></i> <span--}}
 {{--            data-key="t-{{ __('system.qr_code.menu') }}">{{ __('system.qr_code.menu') }}</span></a></li>--}}
-
+<li><a href="{{ route('restaurant.environment.instagram_story') }}"> <i class="fas fa-link font-size-18"></i> <span
+    data-key="t-{{ __('system.instagram_story.menu') }}">{{ __('system.instagram_story.menu') }}</span></a></li>
 <li><a href="{{ route('restaurant.environment.setting') }}"> <i class="fas fa-cog font-size-18"></i> <span
             data-key="t-{{ __('system.environment.menu') }}">{{ __('system.environment.menu') }}</span></a></li>
- <li><a href="{{ route('restaurant.environment.instagram_story') }}"> <i class="fas fa-link font-size-18"></i> <span
-                data-key="t-{{ __('system.instagram_story.menu') }}">{{ __('system.instagram_story.menu') }}</span></a></li>
+
 {{--<li><a href="{{ route('restaurant.themes.index') }}"> <i class="fas fa-paint-roller font-size-18"></i> <span data-key="t-{{ __('system.themes.menu') }}">{{ __('system.themes.menu') }}</span></a></li>--}}
 {{--<li><a href="{{ route('restaurant.languages.index') }}"> <i class="fas  fa-language font-size-18"></i> <span data-key="t-{{ __('system.languages.menu') }}">{{ __('system.languages.menu') }}</span></a></li>--}}
