@@ -10,7 +10,8 @@ class InstagramController extends Controller
     public function index()
     {
         $permissions = [
-            'user_profile',
+            'email',
+            'public_profile',
             'instagram_basic',
             'instagram_manage_insights',
             'pages_read_engagement',
