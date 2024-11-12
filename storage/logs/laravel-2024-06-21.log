@@ -1,0 +1,1700 @@
+[2024-06-21 14:53:34] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":684,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234603961_image1.webp","lang_name":null,"created_at":"2024-06-19T18:57:55.000000Z","updated_at":"2024-06-19T18:57:55.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 14:53:35] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":684,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234603961_image1.webp","lang_name":null,"created_at":"2024-06-19T18:57:55.000000Z","updated_at":"2024-06-19T18:57:55.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":0} 
+[2024-06-21 14:53:35] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":685,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234602131_image2.webp","lang_name":null,"created_at":"2024-06-19T18:57:55.000000Z","updated_at":"2024-06-19T18:57:55.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 14:53:35] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":685,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234602131_image2.webp","lang_name":null,"created_at":"2024-06-19T18:57:55.000000Z","updated_at":"2024-06-19T18:57:55.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":0} 
+[2024-06-21 14:53:35] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":686,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234615005_image4.webp","lang_name":null,"created_at":"2024-06-19T18:57:56.000000Z","updated_at":"2024-06-19T18:57:56.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 14:53:35] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":686,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234615005_image4.webp","lang_name":null,"created_at":"2024-06-19T18:57:56.000000Z","updated_at":"2024-06-19T18:57:56.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":0} 
+[2024-06-21 14:53:35] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":687,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234619253_image3.webp","lang_name":null,"created_at":"2024-06-19T18:57:56.000000Z","updated_at":"2024-06-19T18:57:56.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 14:53:35] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":687,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234619253_image3.webp","lang_name":null,"created_at":"2024-06-19T18:57:56.000000Z","updated_at":"2024-06-19T18:57:56.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":0} 
+[2024-06-21 14:53:35] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":688,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234626102_image5.webp","lang_name":null,"created_at":"2024-06-19T18:57:56.000000Z","updated_at":"2024-06-19T18:57:56.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 14:53:35] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":688,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234626102_image5.webp","lang_name":null,"created_at":"2024-06-19T18:57:56.000000Z","updated_at":"2024-06-19T18:57:56.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":0} 
+[2024-06-21 14:53:35] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":689,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234636305_image6.webp","lang_name":null,"created_at":"2024-06-19T18:57:56.000000Z","updated_at":"2024-06-19T18:57:56.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 14:53:36] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":689,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234636305_image6.webp","lang_name":null,"created_at":"2024-06-19T18:57:56.000000Z","updated_at":"2024-06-19T18:57:56.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":0} 
+[2024-06-21 14:53:36] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":690,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234648673_image8.webp","lang_name":null,"created_at":"2024-06-19T18:57:56.000000Z","updated_at":"2024-06-19T18:57:56.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 14:53:36] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":690,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234648673_image8.webp","lang_name":null,"created_at":"2024-06-19T18:57:56.000000Z","updated_at":"2024-06-19T18:57:56.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":0} 
+[2024-06-21 14:53:36] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":691,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234644092_image7.webp","lang_name":null,"created_at":"2024-06-19T18:57:56.000000Z","updated_at":"2024-06-19T18:57:56.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 14:53:36] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":691,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234644092_image7.webp","lang_name":null,"created_at":"2024-06-19T18:57:56.000000Z","updated_at":"2024-06-19T18:57:56.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":0} 
+[2024-06-21 14:53:36] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":692,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234659728_image10.webp","lang_name":null,"created_at":"2024-06-19T18:57:56.000000Z","updated_at":"2024-06-19T18:57:56.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 14:53:36] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":692,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234659728_image10.webp","lang_name":null,"created_at":"2024-06-19T18:57:56.000000Z","updated_at":"2024-06-19T18:57:56.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":0} 
+[2024-06-21 14:53:36] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":693,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234659814_image9.webp","lang_name":null,"created_at":"2024-06-19T18:57:57.000000Z","updated_at":"2024-06-19T18:57:57.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 14:53:36] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":693,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234659814_image9.webp","lang_name":null,"created_at":"2024-06-19T18:57:57.000000Z","updated_at":"2024-06-19T18:57:57.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":0} 
+[2024-06-21 14:53:36] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":694,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234665822_image11.webp","lang_name":null,"created_at":"2024-06-19T18:57:57.000000Z","updated_at":"2024-06-19T18:57:57.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 14:53:36] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":694,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234665822_image11.webp","lang_name":null,"created_at":"2024-06-19T18:57:57.000000Z","updated_at":"2024-06-19T18:57:57.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":0} 
+[2024-06-21 14:53:36] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":695,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234664504_image12.webp","lang_name":null,"created_at":"2024-06-19T18:57:57.000000Z","updated_at":"2024-06-19T18:57:57.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 14:53:36] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":695,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234664504_image12.webp","lang_name":null,"created_at":"2024-06-19T18:57:57.000000Z","updated_at":"2024-06-19T18:57:57.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":0} 
+[2024-06-21 14:53:37] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":696,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234677763_image13.webp","lang_name":null,"created_at":"2024-06-19T18:57:57.000000Z","updated_at":"2024-06-19T18:57:57.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 14:53:37] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":696,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234677763_image13.webp","lang_name":null,"created_at":"2024-06-19T18:57:57.000000Z","updated_at":"2024-06-19T18:57:57.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":0} 
+[2024-06-21 14:53:37] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":697,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234686721_image14.webp","lang_name":null,"created_at":"2024-06-19T18:57:57.000000Z","updated_at":"2024-06-19T18:57:57.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 14:53:37] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":697,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234686721_image14.webp","lang_name":null,"created_at":"2024-06-19T18:57:57.000000Z","updated_at":"2024-06-19T18:57:57.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":0} 
+[2024-06-21 14:53:37] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":698,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234694629_image15.webp","lang_name":null,"created_at":"2024-06-19T18:57:57.000000Z","updated_at":"2024-06-19T18:57:57.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 14:53:37] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":698,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234694629_image15.webp","lang_name":null,"created_at":"2024-06-19T18:57:57.000000Z","updated_at":"2024-06-19T18:57:57.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":0} 
+[2024-06-21 14:53:37] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":699,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234692922_image16.webp","lang_name":null,"created_at":"2024-06-19T18:57:57.000000Z","updated_at":"2024-06-19T18:57:57.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 14:53:37] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":699,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234692922_image16.webp","lang_name":null,"created_at":"2024-06-19T18:57:57.000000Z","updated_at":"2024-06-19T18:57:57.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":0} 
+[2024-06-21 14:53:37] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":700,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234706766_image17.webp","lang_name":null,"created_at":"2024-06-19T18:57:58.000000Z","updated_at":"2024-06-19T18:57:58.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 14:53:37] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":700,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234706766_image17.webp","lang_name":null,"created_at":"2024-06-19T18:57:58.000000Z","updated_at":"2024-06-19T18:57:58.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":0} 
+[2024-06-21 14:53:37] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":701,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234702209_image18.webp","lang_name":null,"created_at":"2024-06-19T18:57:58.000000Z","updated_at":"2024-06-19T18:57:58.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 14:53:37] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":701,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234702209_image18.webp","lang_name":null,"created_at":"2024-06-19T18:57:58.000000Z","updated_at":"2024-06-19T18:57:58.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":0} 
+[2024-06-21 14:53:38] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":702,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234712549_image19.webp","lang_name":null,"created_at":"2024-06-19T18:57:58.000000Z","updated_at":"2024-06-19T18:57:58.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 14:53:38] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":702,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234712549_image19.webp","lang_name":null,"created_at":"2024-06-19T18:57:58.000000Z","updated_at":"2024-06-19T18:57:58.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":0} 
+[2024-06-21 14:53:38] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":703,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234713701_image20.webp","lang_name":null,"created_at":"2024-06-19T18:57:58.000000Z","updated_at":"2024-06-19T18:57:58.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 14:53:38] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":703,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234713701_image20.webp","lang_name":null,"created_at":"2024-06-19T18:57:58.000000Z","updated_at":"2024-06-19T18:57:58.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":0} 
+[2024-06-21 14:53:38] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":704,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234725862_image21.webp","lang_name":null,"created_at":"2024-06-19T18:57:58.000000Z","updated_at":"2024-06-19T18:57:58.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 14:53:38] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":704,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234725862_image21.webp","lang_name":null,"created_at":"2024-06-19T18:57:58.000000Z","updated_at":"2024-06-19T18:57:58.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":0} 
+[2024-06-21 14:53:38] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":705,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234728765_image22.webp","lang_name":null,"created_at":"2024-06-19T18:57:58.000000Z","updated_at":"2024-06-19T18:57:58.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 14:53:38] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":705,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234728765_image22.webp","lang_name":null,"created_at":"2024-06-19T18:57:58.000000Z","updated_at":"2024-06-19T18:57:58.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":0} 
+[2024-06-21 14:53:38] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":706,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234738125_image23.webp","lang_name":null,"created_at":"2024-06-19T18:57:59.000000Z","updated_at":"2024-06-19T18:57:59.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 14:53:38] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":706,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234738125_image23.webp","lang_name":null,"created_at":"2024-06-19T18:57:59.000000Z","updated_at":"2024-06-19T18:57:59.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":0} 
+[2024-06-21 14:53:38] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":707,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234739597_image24.webp","lang_name":null,"created_at":"2024-06-19T18:57:59.000000Z","updated_at":"2024-06-19T18:57:59.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 14:53:38] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":707,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17188234739597_image24.webp","lang_name":null,"created_at":"2024-06-19T18:57:59.000000Z","updated_at":"2024-06-19T18:57:59.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":0} 
+[2024-06-21 14:54:58] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189672871344_eoea03.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T10:54:58.000000Z","created_at":"2024-06-21T10:54:58.000000Z","id":761,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 14:54:59] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189672871344_eoea03.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T10:54:58.000000Z","created_at":"2024-06-21T10:54:58.000000Z","id":761,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":0} 
+[2024-06-21 14:55:47] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":761,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17189672871344_eoea03.webp","lang_name":null,"created_at":"2024-06-21T10:54:58.000000Z","updated_at":"2024-06-21T10:54:58.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 14:55:48] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"delete","list":{"App\\Models\\Food":{"id":761,"restaurant_id":17,"name":"","description":null,"price":null,"ingredient":null,"preparation_time":null,"is_featured":false,"is_available":true,"is_out_of_sold":false,"label_image":null,"food_image":"food_image/17189672871344_eoea03.webp","lang_name":null,"created_at":"2024-06-21T10:54:58.000000Z","updated_at":"2024-06-21T10:54:58.000000Z","deleted_at":null,"lang_description":null,"gallery_images":null,"is_display":1}}},"userTypeId":0} 
+[2024-06-21 15:04:58] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189674277755_eoea02.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:04:58.000000Z","created_at":"2024-06-21T11:04:58.000000Z","id":762,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 15:04:58] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189674277755_eoea02.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:04:58.000000Z","created_at":"2024-06-21T11:04:58.000000Z","id":762,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":0} 
+[2024-06-21 15:04:58] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189674283225_eoea03.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:04:58.000000Z","created_at":"2024-06-21T11:04:58.000000Z","id":763,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 15:04:58] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189674283225_eoea03.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:04:58.000000Z","created_at":"2024-06-21T11:04:58.000000Z","id":763,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":0} 
+[2024-06-21 15:04:58] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189674414312_eoea05.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:04:58.000000Z","created_at":"2024-06-21T11:04:58.000000Z","id":764,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 15:04:58] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189674414312_eoea05.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:04:58.000000Z","created_at":"2024-06-21T11:04:58.000000Z","id":764,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":0} 
+[2024-06-21 15:04:58] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189674679070_eoea04.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:04:58.000000Z","created_at":"2024-06-21T11:04:58.000000Z","id":765,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 15:04:59] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189674679070_eoea04.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:04:58.000000Z","created_at":"2024-06-21T11:04:58.000000Z","id":765,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":0} 
+[2024-06-21 15:04:59] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189674855876_eoea06.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:04:59.000000Z","created_at":"2024-06-21T11:04:59.000000Z","id":766,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 15:04:59] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189674855876_eoea06.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:04:59.000000Z","created_at":"2024-06-21T11:04:59.000000Z","id":766,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":0} 
+[2024-06-21 15:04:59] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189675026873_eoea07.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:04:59.000000Z","created_at":"2024-06-21T11:04:59.000000Z","id":767,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 15:04:59] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189675026873_eoea07.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:04:59.000000Z","created_at":"2024-06-21T11:04:59.000000Z","id":767,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":0} 
+[2024-06-21 15:04:59] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189675168000_eoea09.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:04:59.000000Z","created_at":"2024-06-21T11:04:59.000000Z","id":768,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 15:04:59] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189675168000_eoea09.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:04:59.000000Z","created_at":"2024-06-21T11:04:59.000000Z","id":768,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":0} 
+[2024-06-21 15:04:59] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189675203094_eoea08.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:04:59.000000Z","created_at":"2024-06-21T11:04:59.000000Z","id":769,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 15:04:59] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189675203094_eoea08.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:04:59.000000Z","created_at":"2024-06-21T11:04:59.000000Z","id":769,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":0} 
+[2024-06-21 15:04:59] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189675375170_eoea11.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:04:59.000000Z","created_at":"2024-06-21T11:04:59.000000Z","id":770,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 15:04:59] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189675375170_eoea11.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:04:59.000000Z","created_at":"2024-06-21T11:04:59.000000Z","id":770,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":0} 
+[2024-06-21 15:04:59] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189675493353_eoea12.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:04:59.000000Z","created_at":"2024-06-21T11:04:59.000000Z","id":771,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 15:04:59] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189675493353_eoea12.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:04:59.000000Z","created_at":"2024-06-21T11:04:59.000000Z","id":771,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":0} 
+[2024-06-21 15:05:00] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189675575290_eoea10.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:04:59.000000Z","created_at":"2024-06-21T11:04:59.000000Z","id":772,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 15:05:00] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189675575290_eoea10.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:04:59.000000Z","created_at":"2024-06-21T11:04:59.000000Z","id":772,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":0} 
+[2024-06-21 15:05:00] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189675933190_eoea13.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:05:00.000000Z","created_at":"2024-06-21T11:05:00.000000Z","id":773,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 15:05:00] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189675933190_eoea13.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:05:00.000000Z","created_at":"2024-06-21T11:05:00.000000Z","id":773,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":0} 
+[2024-06-21 15:05:00] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189676029861_eoea14.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:05:00.000000Z","created_at":"2024-06-21T11:05:00.000000Z","id":774,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 15:05:00] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189676029861_eoea14.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:05:00.000000Z","created_at":"2024-06-21T11:05:00.000000Z","id":774,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":0} 
+[2024-06-21 15:05:00] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189676369085_eoea15.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:05:00.000000Z","created_at":"2024-06-21T11:05:00.000000Z","id":775,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 15:05:00] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189676369085_eoea15.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:05:00.000000Z","created_at":"2024-06-21T11:05:00.000000Z","id":775,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":0} 
+[2024-06-21 15:05:00] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189676488394_eoea16.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:05:00.000000Z","created_at":"2024-06-21T11:05:00.000000Z","id":776,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 15:05:00] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189676488394_eoea16.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:05:00.000000Z","created_at":"2024-06-21T11:05:00.000000Z","id":776,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":0} 
+[2024-06-21 15:05:00] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189676714421_eoea17.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:05:00.000000Z","created_at":"2024-06-21T11:05:00.000000Z","id":777,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 15:05:00] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189676714421_eoea17.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:05:00.000000Z","created_at":"2024-06-21T11:05:00.000000Z","id":777,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":0} 
+[2024-06-21 15:05:00] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189676934477_eoea18.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:05:00.000000Z","created_at":"2024-06-21T11:05:00.000000Z","id":778,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 15:05:00] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189676934477_eoea18.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:05:00.000000Z","created_at":"2024-06-21T11:05:00.000000Z","id":778,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":0} 
+[2024-06-21 15:05:01] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189677237250_eoea19.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:05:01.000000Z","created_at":"2024-06-21T11:05:01.000000Z","id":779,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 15:05:01] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189677237250_eoea19.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:05:01.000000Z","created_at":"2024-06-21T11:05:01.000000Z","id":779,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":0} 
+[2024-06-21 15:05:01] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189677307027_eoea20.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:05:01.000000Z","created_at":"2024-06-21T11:05:01.000000Z","id":780,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 15:05:01] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189677307027_eoea20.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:05:01.000000Z","created_at":"2024-06-21T11:05:01.000000Z","id":780,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":0} 
+[2024-06-21 15:05:01] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189677667228_eoea21.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:05:01.000000Z","created_at":"2024-06-21T11:05:01.000000Z","id":781,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 15:05:01] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189677667228_eoea21.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:05:01.000000Z","created_at":"2024-06-21T11:05:01.000000Z","id":781,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":0} 
+[2024-06-21 15:05:01] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189677858902_eoea22.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:05:01.000000Z","created_at":"2024-06-21T11:05:01.000000Z","id":782,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 15:05:01] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189677858902_eoea22.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:05:01.000000Z","created_at":"2024-06-21T11:05:01.000000Z","id":782,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":0} 
+[2024-06-21 15:05:01] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189678126900_eoea23.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:05:01.000000Z","created_at":"2024-06-21T11:05:01.000000Z","id":783,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 15:05:01] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189678126900_eoea23.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:05:01.000000Z","created_at":"2024-06-21T11:05:01.000000Z","id":783,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":0} 
+[2024-06-21 15:05:01] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189678499691_eoea24.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:05:01.000000Z","created_at":"2024-06-21T11:05:01.000000Z","id":784,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 15:05:01] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189678499691_eoea24.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:05:01.000000Z","created_at":"2024-06-21T11:05:01.000000Z","id":784,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":0} 
+[2024-06-21 15:05:02] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189678647381_eoea25.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:05:01.000000Z","created_at":"2024-06-21T11:05:01.000000Z","id":785,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":"e5eb7be8-36e2-4562-b5a2-247b42a6564d"} 
+[2024-06-21 15:05:02] local.INFO: NotificationSending event triggered {"message":{"type":"products","action":"new","list":{"App\\Models\\Food":{"food_image":"food_image/17189678647381_eoea25.webp","restaurant_id":17,"name":"","price":null,"is_available":true,"updated_at":"2024-06-21T11:05:01.000000Z","created_at":"2024-06-21T11:05:01.000000Z","id":785,"restaurant":{"id":17,"user_id":21,"profile_picture":"profile_pictures/profile_picture_666b5408b5b05.jpg","vertical_mode":0,"zip":null,"name":"Ostool Albon","type":"Cafe","logo":"/storage/logo/17183098972689_.webp","cover_image":null,"instagram_url":"ostoolalbon","instagram_token":null,"script_code":"<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Wait until the Tagembed widget is loaded
+
+    var interval = setInterval(function() {
+
+        var videos = document.querySelectorAll('.tagembed-container video');
+
+        if (videos.length > 0) {
+
+            videos.forEach(function(video) {
+
+                video.setAttribute('autoplay', 'true');
+
+                video.setAttribute('muted', 'true'); // Muting might be required for autoplay to work on some browsers
+
+                video.play();
+
+            });
+
+            clearInterval(interval);
+
+        }
+
+    }, 1000); // Check every second until the videos are found
+
+});
+
+</script>
+
+<iframe src=\"https://widget.tagembed.com/152371?view\" style=\" width:100%;height:100%;overflow: auto;\" frameborder=\"0\" allowtransparency=\"true\"></iframe>","intro_video_url":null,"contact_email":null,"address":null,"phone_number":null,"city":null,"state":null,"country":null,"currency":null,"language":[],"created_at":"2024-05-11T11:31:06.000000Z","updated_at":"2024-06-21T06:31:20.000000Z","deleted_at":null,"qr_details":null,"theme":"#010000","dark_logo":null,"uuid":"e5eb7be8-36e2-4562-b5a2-247b42a6564d","menu_title_en":"MENU","menu_title_ar":"القائمة","twitter_url":"","animation":"fadeInTopLeft","animation_timer":"10 secs","caption_en":"Sailing Together","social_media_icon":"https://beta.wslah.om/assets/images/insta.gif","icon_color":null,"font_color":"#ffffff","limit_characters":null,"home_page_text":"نـبـحــر سـويــاً","social_media":null,"background_color":"#010000","frame_color":"#010000","bg_frame_color":null,"static_logo":"https://beta.wslah.om/assets/images/wslah_white.png","is_on_off":"0"}}}},"userTypeId":0} 
