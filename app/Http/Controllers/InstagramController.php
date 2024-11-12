@@ -9,6 +9,11 @@ class InstagramController extends Controller
 {
     public function index()
     {
+        $client_id = "1063757440972100";
+        $client_secret ="f2a070338d697ed905525e01999a6467";
+        $redirect_uri = config('services.fb.callback_url');
+        $url='https://api.instagram.com/oauth/authorize?client_id='.$client_id.'&redirect_uri='.$redirect_uri.'&scope=user_profile,user_media&response_type=code';
+        return redirect()->to($url);
         // $permissions = [
         //     'email',
         //     'public_profile',
