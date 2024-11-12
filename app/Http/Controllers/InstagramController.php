@@ -44,7 +44,7 @@ class InstagramController extends Controller
         $client_secret = config('services.fb.secret');
         $redirect_uri = config('services.fb.callback_url'); // The same as the redirect URI used in authorization
         $code = $_GET['code']; // The code from the URL
-dd($client_id,$client_secret,$redirect_uri,$code);
+
         // Prepare the data to be sent
         $data = array(
             'client_id' => $client_id,
@@ -70,7 +70,7 @@ dd($client_id,$client_secret,$redirect_uri,$code);
 
         // Decode the response
         $response_data = json_decode($response, true);
-
+dd($response_data);
         if (isset($response_data['access_token'])) {
             // Access token is available
             echo "Access Token: " . $response_data['access_token'];
