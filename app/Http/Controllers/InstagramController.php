@@ -31,8 +31,7 @@ class InstagramController extends Controller
 
     public function callback()
     {
-        $accessToken = Instagram::getUserAccessToken();
-        dd($accessToken);
+        return Instagram::getUserAccessToken();
     }
 
     public function instagramAccounts(): array
