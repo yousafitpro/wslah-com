@@ -40,10 +40,13 @@ class InstagramController extends Controller
 
     public function callback()
     {
-        $client_id = config('services.fb.app_id');
-        $client_secret = config('services.fb.secret');
-        $redirect_uri = config('services.fb.callback_url'); // The same as the redirect URI used in authorization
-        $code = $_GET['code']; // The code from the URL
+        // $client_id = config('services.fb.app_id');
+        // $client_secret = config('services.fb.secret');
+        // $redirect_uri = config('services.fb.callback_url');
+         $client_id = "1063757440972100";
+        $client_secret ="f2a070338d697ed905525e01999a6467";
+        $redirect_uri = config('services.fb.callback_url');
+        $code = $_GET['code'];
 
         // Prepare the data to be sent
         $data = array(
