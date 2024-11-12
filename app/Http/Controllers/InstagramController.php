@@ -9,16 +9,25 @@ class InstagramController extends Controller
 {
     public function index()
     {
-        $permissions = [
-            'email',
-            'public_profile',
+        // $permissions = [
+        //     'email',
+        //     'public_profile',
+        //     'instagram_basic',
+        //     'instagram_manage_insights',
+        //     'pages_read_engagement',
+        //     'pages_show_list',
+        //     'instagram_manage_comments',
+        //     'instagram_manage_messages',
+        //     'pages_manage_engagement',
+        //     'pages_manage_metadata'
+        // ];
+          $permissions = [
             'instagram_basic',
-            'instagram_manage_insights',
-            'pages_read_engagement',
             'pages_show_list',
             'instagram_manage_comments',
             'instagram_manage_messages',
             'pages_manage_engagement',
+            'pages_read_engagement',
             'pages_manage_metadata'
         ];
 
