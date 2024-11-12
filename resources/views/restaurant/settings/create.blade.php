@@ -2,7 +2,7 @@
      @extends('layouts.app', ['languages_array' => $languages_array])
      @section('title', __('system.environment.menu'))
      @section('content')
-     <h1>da</h1>
+
      <div class="row">
 
          <div class="col-xl-12 col-sm-12">
