@@ -22,7 +22,7 @@ class InstagramController extends Controller
 
         // Generate Instagram Graph Login URL
         $login = (new Instagram())->getLoginUrl($permissions);
-dd($login);
+
         // Redirect To Facebook Login & Select Account Page
         return redirect()->to($login);
     }
