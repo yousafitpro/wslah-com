@@ -40,6 +40,45 @@ class InstagramController extends Controller
 
     public function callback()
     {
+        $client_id = config('services.fb.app_id');
+        $client_secret = config('services.fb.secret');
+        $redirect_uri = config('services.fb.callback_url');
+
+        $code = $_GET['code'];
+
+        // Prepare the data to be sent
+        $data = array(
+            'client_id' => $client_id,
+            'client_secret' => $client_secret,
+            'grant_type' => 'authorization_code',
+            'redirect_uri' => $redirect_uri,
+            'code' => $code
+        );
+
+        // Initialize cURL session
+        $ch = curl_init('https://api.instagram.com/oauth/access_token');
+
+        // Set the cURL options
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_POST, true);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+
+        // Execute cURL and get the response
+        $response = curl_exec($ch);
+
+        // Close the cURL session
+        curl_close($ch);
+
+        // Decode the response
+        $response_data = json_decode($response, true);
+        dd($response_data);
+        if (isset($response_data['access_token'])) {
+            // Access token is available
+            echo "Access Token: " . $response_data['access_token'];
+        } else {
+            // Error handling if token is not returned
+            echo "Error: " . $response_data['error_message'];
+        }
         return Instagram::getUserAccessToken();
     }
     //  public function callback()
