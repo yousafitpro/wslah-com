@@ -29,9 +29,9 @@
             <div class="card-body">
                 <div class="row">
                     <div class="col-6 mt-1 mb-5">
-                        <a href="{{route('restaurant.instagram.login')}}" class="btn btn-sm btn-primary instagram-button @if(!empty($row->instagram_token))  @endif">
+                        <a href="{{route('restaurant.instagram.login')}}" class="btn btn-sm btn-primary instagram-button ">
                             <img src="{{asset('assets/icons/instagram.png')}}" style="width:20px;margin-right:10px">
-                            Sign in with instagram</a>
+                            @if(!empty($row->instagram_token))Sign in with instagram @else Reconnect instagram @endif</a>
                     </div>
                 </div>
 
