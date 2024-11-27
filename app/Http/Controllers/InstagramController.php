@@ -56,7 +56,7 @@ class InstagramController extends Controller
         );
 
         // Initialize cURL session
-        $ch = curl_init('https://api.instagram.com/oauth/access_token');
+        $ch = curl_init('https://graph.facebook.com/v10.0/oauth/access_token');
 
         // Set the cURL options
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
