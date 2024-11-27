@@ -47,8 +47,8 @@ class EnvSettingController extends Controller {
         // } else
         // {
             $restaurant = $user->restaurant;
-            $fb_user=json_decode($restaurant->fb_user,true);
-            dd($restaurant->fb_user);
+            $fb_user=json_decode($restaurant,true);
+            dd($restaurant);
             return view('restaurant.settings.instagram', [
                 'row' => $restaurant,
             ]);
