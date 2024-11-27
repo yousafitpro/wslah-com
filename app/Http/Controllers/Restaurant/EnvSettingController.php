@@ -37,6 +37,7 @@ class EnvSettingController extends Controller {
     }
       public function instagramStory()
     {
+        dd("ok");
         $user = auth()->user();
         // if($user->hasRole('admin'))
         // {
