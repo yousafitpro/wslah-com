@@ -131,6 +131,7 @@ class User extends Authenticatable implements Searchable
             "$table.icon_color",
             "$table.limit_characters",
             "$table.profile_picture",
+            "$table.fb_user",
 
         );
     }
