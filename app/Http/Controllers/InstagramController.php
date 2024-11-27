@@ -74,7 +74,7 @@ class InstagramController extends Controller
         // Decode the response
         $response_data = json_decode($response, true);
 
-        Restaurant::where('user_id',auth()->user()->id)->update(['instagram_token',$response_data['access_token']]);
+        Restaurant::where('user_id',auth()->user()->id)->update(['instagram_token'=>$response_data['access_token']]);
         $request->session()->flash('Success', __('system.messages.change_success_message', ['model' =>"Successfully Connected"]));
 
         return redirect(route('restaurant.environment.instagram_story'));
