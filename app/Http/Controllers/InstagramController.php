@@ -83,13 +83,22 @@ class InstagramController extends Controller
     // {
     //     return Instagram::getUserAccessToken();
     // }
+    public function userInfo($access_token)
+    {
 
+        $instagram = new Instagram($access_token);
+
+        $endpoint = '/me?fields=id,name';
+
+        return $instagram->get($endpoint);
+
+    }
     public function instagramAccounts()
     {
         $restaurant=Restaurant::where('user_id',auth()->user()->id)->first();
         $token = $restaurant->instagram_token;
         $access_token = $token; // From previous step
-
+        dd($this->userInfo($token));
         $ch = curl_init("https://graph.facebook.com/v19.0/me/accounts?access_token=$access_token");
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
