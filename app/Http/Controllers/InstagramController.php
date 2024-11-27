@@ -84,12 +84,14 @@ class InstagramController extends Controller
     //     return Instagram::getUserAccessToken();
     // }
 
-    public function instagramAccounts(): array
+    public function instagramAccounts()
     {
-        $token = "<USER_ACCESS_TOKEN>"; // We got it in callback
+        $restaurant=Restaurant::where('user_id',auth()->user()->id)->first();
+        $token = $restaurant->instagram_token;
         $instagram = new Instagram($token);
 
         // Will return all instagram accounts that connected to your facebook selected pages.
-        return $instagram->getComment();
+        $accounts=$instagram->getConnectedAccountsList();
+        dd( $accounts);
     }
 }

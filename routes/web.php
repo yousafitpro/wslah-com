@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
  */
-
+Route::get('instagram/accounts', [InstagramController::class, 'instagramAccounts']);
 //  test return view
 Route::get('cache-clear', function () {
   \Artisan::call('cache:clear');
