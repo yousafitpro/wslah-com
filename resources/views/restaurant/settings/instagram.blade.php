@@ -28,7 +28,7 @@
             </div>
             <?php
 
-     $fb_user=json_decode($row->fb_user,true);
+
 ?>
             <div class="card-body">
                 <div class="row">
