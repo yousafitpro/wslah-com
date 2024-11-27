@@ -88,6 +88,16 @@ class InstagramController extends Controller
     {
         $restaurant=Restaurant::where('user_id',auth()->user()->id)->first();
         $token = $restaurant->instagram_token;
+        $access_token = $token; // From previous step
+
+        $ch = curl_init("https://graph.facebook.com/v19.0/me/accounts?access_token=$access_token");
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+        $response = curl_exec($ch);
+        curl_close($ch);
+
+        $pages = json_decode($response, true);
+        dd($pages);  // Look for the 'id' of the connected page
         $instagram = new Instagram($token);
 
         // Will return all instagram accounts that connected to your facebook selected pages.
