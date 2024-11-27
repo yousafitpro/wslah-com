@@ -101,8 +101,8 @@ class InstagramController extends Controller
         $restaurant=Restaurant::where('user_id',auth()->user()->id)->first();
         $token = $restaurant->instagram_token;
         $access_token = $token; // From previous step
-        dd($this->userInfo($token));
-        $ch = curl_init("https://graph.facebook.com/v19.0/me/accounts?access_token=$access_token");
+        dump($access_token);
+        $ch = curl_init("https://graph.facebook.com/v10.0/me/accounts?access_token=$access_token");
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
         $response = curl_exec($ch);
