@@ -35,7 +35,10 @@
                     <div class="col-6 mt-1 mb-5">
                         <a href="{{route('restaurant.instagram.login')}}" class="btn btn-sm btn-primary instagram-button ">
                             <img src="{{asset('assets/icons/instagram.png')}}" style="width:20px;margin-right:10px">
-                            @if(empty($row->instagram_token))Sign in with instagram @else Reconnect instagram {{$fb_user['name']}} @endif</a>
+                            @if(empty($row->instagram_token))Sign in with instagram @else Reconnect instagram  @endif</a>
+                            @if(empty($row->instagram_token))
+                            <small>{{$fb_user['name']}}(#{{$fb_user['id']}})</small>
+                            @endif
                     </div>
                 </div>
 
