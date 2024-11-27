@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Restaurant;
 use Illuminate\Http\Request;
 use Amirsarhang\Instagram;
 
@@ -40,6 +41,7 @@ class InstagramController extends Controller
 
     public function callback()
     {
+        $request = request();
         $client_id = config('services.fb.app_id');
         $client_secret = config('services.fb.secret');
         $redirect_uri = config('services.fb.callback_url');
@@ -71,15 +73,11 @@ class InstagramController extends Controller
 
         // Decode the response
         $response_data = json_decode($response, true);
-        dd($response_data);
-        if (isset($response_data['access_token'])) {
-            // Access token is available
-            echo "Access Token: " . $response_data['access_token'];
-        } else {
-            // Error handling if token is not returned
-            echo "Error: " . $response_data['error_message'];
-        }
-        return Instagram::getUserAccessToken();
+
+        Restaurant::where('user_id',auth()->user()->id)->update(['instagram_token',$response_data['access_token']]);
+        $request->session()->flash('Success', __('system.messages.change_success_message', ['model' =>"Successfully Connected"]));
+
+        return redirect(route('restaurant.environment.instagram_story'));
     }
     //  public function callback()
     // {
