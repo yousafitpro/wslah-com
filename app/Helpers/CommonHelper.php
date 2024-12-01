@@ -110,7 +110,18 @@ function instagram_stories_for_store()
     $stories=InstagramStory::where('user_id',$user_id)->orderBy('created_at', 'desc')->limit($res->number_posts)->get();
    foreach($stories as $item)
    {
+
     $item->payload=json_decode($item->payload,true);
+    $item->payload['play_url']='';
+    if(isset($item->payload['thumbnail_url']))
+    {
+        $item->payload['play_url']=$item->payload['thumbnail_url'];
+
+    }
+    else if($item->payload['media_url'])
+    {
+        $item->payload['play_url']=$item->payload['media_url'];
+    }
    }
     return $stories;
 }
