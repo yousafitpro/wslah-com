@@ -103,7 +103,7 @@ class InstagramController extends Controller
         return $instagram->get($endpoint);
 
     }
-    public function getIstagramAccount($token,$page_id)
+    public function getIstagramAccount($token,$page_id,$user_id)
     {
 
         $access_token =$token; // From previous step
@@ -118,9 +118,9 @@ class InstagramController extends Controller
         $instagram_data = json_decode($response, true);
 
         $ig_user_id = $instagram_data['connected_instagram_account']['id'];
-        $this->getInstagramStories($ig_user_id,$token);
+        $this->getInstagramStories($ig_user_id,$token,$user_id);
     }
-    public function getInstagramReels($ig_user_id,$access_token){
+    public function getInstagramReels($ig_user_id,$access_token,$user_id){
 
         $ch = curl_init("https://graph.facebook.com/v19.0/{$ig_user_id}/media?fields=id,media_type,media_url,caption,timestamp&access_token={$access_token}");
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -133,22 +133,22 @@ class InstagramController extends Controller
         $reels = array_filter($media['data'], function($item) {
             return $item['media_type'] === 'VIDEO'; // Reels are returned as 'VIDEO'
         });
-        $this->saveReelsToDatabase($reels['data']);
+        $this->saveReelsToDatabase($reels['data'],$user_id);
 
     }
-    public function saveReelsToDatabase($data) {
+    public function saveReelsToDatabase($data,$user_id) {
      foreach( $data as $item)
      {
         InstagramStory::updateOrCreate(['insta_story_id'=>$item['id'],'user_id'=>auth()->user()->id],
         [
             'insta_story_id'=>$item['id'],
-            'user_id'=>auth()->user()->id,
+            'user_id'=>$user_id,
             'payload'=>json_encode($item),
             ]
      );
      }
     }
-    public function getInstagramStories($ig_user_id, $access_token) {
+    public function getInstagramStories($ig_user_id, $access_token,$user_id) {
         // Limit to 10 stories
         $url = "https://graph.facebook.com/v19.0/{$ig_user_id}/stories?fields=id,media_type,media_url,thumbnail_url,timestamp&limit=10&access_token={$access_token}";
 
@@ -163,11 +163,15 @@ class InstagramController extends Controller
         // Decode the response
         $stories = json_decode($response, true);
 
-        $this->saveReelsToDatabase($stories['data']);
+        $this->saveReelsToDatabase($stories['data'],$user_id);
     }
-    public function instagramAccounts()
+    public function instagramAccounts($user_id=null)
     {
-        $restaurant=Restaurant::where('user_id',auth()->user()->id)->first();
+        if($user_id==null)
+        {
+            $user_id=auth()->user()->id;
+        }
+        $restaurant=Restaurant::where('user_id',$user_id)->first();
         $token = $restaurant->instagram_token;
         $access_token = $token; // From previous step
         $ch = curl_init("https://graph.facebook.com/v10.0/me/accounts?access_token=$access_token");
@@ -180,7 +184,7 @@ class InstagramController extends Controller
   // Look for the 'id' of the connected page
         $page_access_token=$pages['data'][0]['access_token'];
         $page_id=$pages['data'][0]['id'];
-        $this->getIstagramAccount($page_access_token,$page_id);
+        $this->getIstagramAccount($page_access_token,$page_id,$user_id);
     }
 
 

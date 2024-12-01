@@ -488,22 +488,23 @@
         // var animation_time = {{ $animation_timer }};
 
         function fetchScriptData() {
-            $.ajax({
-                url: "/get_dynamic_data",
-                method: "GET",
-                data: {
-                    uuid: "{{ $rest->uuid }}"
-                },
-                dataType: "json",
-                success: function(data) {
-                    if (data.script_code) {
-                        $(".story-img").html(data.script_code);
-                    }
-                },
-                error: function(xhr, textStatus, errorThrown) {
-                    //console.log("Error fetching dynamic data: " + textStatus);
-                }
-            });
+
+            // $.ajax({
+            //     url: "/get_dynamic_data",
+            //     method: "GET",
+            //     data: {
+            //         uuid: "{{ $rest->uuid }}"
+            //     },
+            //     dataType: "json",
+            //     success: function(data) {
+            //         if (data.script_code) {
+            //             $(".story-img").html(data.script_code);
+            //         }
+            //     },
+            //     error: function(xhr, textStatus, errorThrown) {
+            //         //console.log("Error fetching dynamic data: " + textStatus);
+            //     }
+            // });
         }
 
         fetchScriptData();

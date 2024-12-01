@@ -101,7 +101,7 @@ class MenuController extends Controller
             if (empty($request->menu) && empty($request->store_id)) {
                 if (auth()->check()) {
                     $user = auth()->user();
-    
+
                     if ($user->user_type != '1' && !$user->isRest()) {
                         return redirect('home');
                     }
@@ -249,25 +249,25 @@ class MenuController extends Controller
     public function foodData(Request $request)
     {
         $cacheKey = 'foodData:' . $request->uuid;
-    
+
         // Check if data exists in cache
         if (Redis::exists($cacheKey)) {
             $cachedData = Redis::get($cacheKey);
             return json_decode($cachedData, true);
         }
-    
+
         $rest = Restaurant::query()->where('uuid', $request->uuid)->first();
         $foods = $rest->foods()->where('foods.is_available', 1)->get();
-    
+
         // Cache the data for future use
         Redis::set($cacheKey, json_encode([
             'foods' => $foods,
             'rest' => $rest,
         ]));
-    
+
         // Set expiration time for cache (e.g., 1 hour)
         Redis::expire($cacheKey, 36);
-    
+
         return [
             'foods' => $foods,
             'rest' => $rest,

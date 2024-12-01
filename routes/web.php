@@ -21,6 +21,9 @@ Route::get('instagram/accounts', [InstagramController::class, 'instagramAccounts
 Route::get('instagram/stories', [InstagramController::class, 'index']);
 Route::get('instagram/reels', [InstagramController::class, 'instagramReels']);
 //  test return view adasd
+Route::get('test-1', function () {
+    instagram_stories_for_store();
+});
 Route::get('cache-clear', function () {
   \Artisan::call('cache:clear');
     \Artisan::call('config:cache');

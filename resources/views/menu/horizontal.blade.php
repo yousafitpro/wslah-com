@@ -14,6 +14,7 @@
     </div>
     <div class="center-side" style="height: 100%">
         <div class="story-img" style="height: 75% !important">
+            @include('instagram.story.slider')
         </div>
         <div class="cone-desc" style="height: 24% !important; margin-top:auto">
             <div>
@@ -87,21 +88,7 @@
         </div>
 
         {{-- <div class="video-container" style="height: 45%"> --}}
-        <div class="video-container" id="ajax-video-slider-container" style="height: 42%">
 
-            {{-- <ul class="slider-wrapper d-flex" style="margin: 0; padding:0; height: 100%; width:100%"
-                id="slider">
-                @if (filled($intro_video_url))
-                    @foreach ($intro_video_url as $key => $intro_url)
-                        <li class="video slide-current m-auto" style="height: 100%; width:100%; display:flex"
-                            data-type="video" data-video="{{ asset('storage/' . $intro_url->file) }}"
-                            data-muted="true"></li>
-                    @endforeach
-                @endif
-            </ul> --}}
-
-            {{-- @include('menu.partials.video-slider') --}}
-        </div>
 
 
         <div class="time-elem" style="height: 25%">

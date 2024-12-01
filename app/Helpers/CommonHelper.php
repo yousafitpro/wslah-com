@@ -7,6 +7,7 @@ use App\Models\Restaurant;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 use App\Models\FoodCategory;
+use App\Models\InstagramStory;
 use Spatie\Searchable\Search;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\DB;
@@ -64,6 +65,53 @@ function uploadFile($file, $path)
         return $file_name;
     }
     return null;
+}
+
+
+
+function get_user_id_from_menu()
+{
+    $uuid=null;
+    $rest=null;
+            if (request()->has('menu') && !empty(request()->get('menu'))) {
+                $uuid = request()->get('menu');
+            } else {
+                if (empty($request->menu) && empty($request->store_id)) {
+                    if (auth()->check()) {
+                        $user = auth()->user();
+
+                        if ($user->user_type != '1' && !$user->isRest()) {
+                            return redirect('home');
+                        }
+                        if ($user->user_type == '1') {
+                            if (isset(request()->query()['uuid'])) {
+                                $uuid = request()->query()['uuid'];
+                            } else {
+                                return redirect('home');
+                            }
+                        } else {
+                            $uuid = $user->restaurant->uuid;
+                        }
+                    }
+                }
+            }
+            if (isset(request()->query()['store_id']) || isset(request()->store_id)) {
+                $rest = Restaurant::find(request()->query()['store_id']);
+            }elseif($uuid){
+                $rest = Restaurant::query()->where('uuid', $uuid)->first();
+            }
+          return $rest->user_id;
+}
+
+function instagram_stories_for_store()
+{
+
+    $stories=InstagramStory::where('user_id',get_user_id_from_menu())->get();
+   foreach($stories as $item)
+   {
+    $item->payload=json_decode($item->payload,true);
+   }
+    return $stories;
 }
 
 function getFileUrl($file)

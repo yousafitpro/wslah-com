@@ -144,6 +144,7 @@ async function fetchDynamicData() {
 }
 
 async function fetchScriptData() {
+
     try {
         const response = await fetch("/get_dynamic_data?uuid={{ $rest->uuid }}");
         const data = await response.json();
@@ -246,7 +247,7 @@ async function fetchProducts() {
 function animateBatch(startIndex, endIndex) {
     const itemsContainer = document.querySelector('.items');
     itemsContainer.innerHTML = '';
-    
+
     for (let i = startIndex; i <= endIndex; i++) {
         const product = products[i];
         const animationClass = rest.animation;
@@ -278,11 +279,11 @@ function animateBatch(startIndex, endIndex) {
                     ` : ''}
             </div>
         `;
-        
+
         itemsContainer.insertAdjacentHTML('beforeend', itemHTML);
 
     }
-   
+
     }
 }
 

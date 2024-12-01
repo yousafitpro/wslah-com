@@ -435,6 +435,7 @@ body{
         // var animation_time = {{ $animation_timer }};
 
         function fetchScriptData() {
+
             $.ajax({
                 url: "/get_dynamic_data",
                 method: "GET",
