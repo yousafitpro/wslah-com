@@ -23,7 +23,7 @@
                                 <div class="avatar-md me-4">
                              <?php
 
-                        $media_url=isset($payload['media_url'])?:'';
+                        $media_url=isset($payload['media_url'])?$payload['media_url']:'';
 
                             ?>
                                     {{-- @if ($restaurant->logo != null) --}}
