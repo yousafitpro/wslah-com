@@ -98,6 +98,7 @@ class InstagramController extends Controller
     }
     public function getIstagramAccount($token,$page_id)
     {
+        dump("Page ID",$page_id);
         $access_token =$token; // From previous step
 
         // Get connected Instagram account
@@ -113,6 +114,7 @@ class InstagramController extends Controller
         $this->getInstagramStories($ig_user_id,$token);
     }
     public function getInstagramReels($ig_user_id,$access_token){
+        dump("instgram User ID",$ig_user_id);
         $ch = curl_init("https://graph.facebook.com/v19.0/{$ig_user_id}/media?fields=id,media_type,media_url,caption,timestamp&access_token={$access_token}");
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
