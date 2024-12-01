@@ -41,6 +41,31 @@ class InstagramController extends Controller
         return redirect()->to($login);
     }
 
+
+    public function exchangeToken($user_id)
+    {
+        $client_id = config('services.fb.app_id');
+        $client_secret = config('services.fb.secret');
+        $restaurant=Restaurant::where('user_id',$user_id)->first();
+        $short_lived_token = $restaurant->instagram_token;
+           // Exchange short-lived token for a long-lived token
+            $long_lived_url = "https://graph.facebook.com/v10.0/oauth/access_token?"
+            . "grant_type=fb_exchange_token"
+            . "&client_id={$client_id}"
+            . "&client_secret={$client_secret}"
+            . "&fb_exchange_token={$short_lived_token}";
+
+            $ch = curl_init($long_lived_url);
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+            $long_lived_response = curl_exec($ch);
+            curl_close($ch);
+
+            // Decode the long-lived token response
+            $long_lived_data = json_decode($long_lived_response, true);
+            dd($long_lived_data);
+            $long_lived_token = $long_lived_data['access_token'];
+    }
+
     public function callback()
     {
         $request = request();

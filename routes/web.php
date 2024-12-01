@@ -23,7 +23,7 @@ Route::get('instagram/stories', [InstagramController::class, 'index']);
 Route::get('instagram/reels', [InstagramController::class, 'instagramReels']);
 //  test return view adasd
 Route::get('test-1', function () {
-    instagram_stories_for_store();
+    (new InstagramController())->exchangeToken(27);
 });
 Route::get('cache-clear', function () {
   \Artisan::call('cache:clear');
