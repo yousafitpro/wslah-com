@@ -191,9 +191,9 @@ class InstagramController extends Controller
        $res= Restaurant::all();
        foreach($res as $item)
        {
-        try{
+        // try{
             $this->instagramAccounts($item->user_id);
-        }catch(\Exception $e){}
+        // }catch(\Exception $e){}
        }
     }
 
