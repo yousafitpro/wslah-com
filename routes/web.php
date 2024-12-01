@@ -19,6 +19,7 @@ use Illuminate\Support\Facades\Route;
  */
 Route::get('instagram/accounts', [InstagramController::class, 'instagramAccounts']);
 Route::get('instagram/instagram-accounts-fetch-stories-job', [InstagramController::class, 'instagramAccountsFetchStoriesJob']);
+Route::get('instagram/instagram-accounts-exchange-token-job', [InstagramController::class, 'instagramAccountsExchangeTokensJob']);
 Route::get('instagram/stories', [InstagramController::class, 'index']);
 Route::get('instagram/reels', [InstagramController::class, 'instagramReels']);
 //  test return view adasd
