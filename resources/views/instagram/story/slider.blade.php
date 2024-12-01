@@ -51,7 +51,7 @@
           @elseif ($item->payload['media_type']=="VIDEO")
           @if(isset($item->payload['media_url']))
 
-          <video class="d-block w-100 {{$rest->animation_type=="fade-in"?'fade-in':''}}" autoplay muted loop controls>
+          <video class="d-block w-100 {{$rest->animation_type=="fade-in"?'fade-in':''}}" autoplay  loop controls>
             <source src="{{ $item->payload['media_url'] }}" type="video/mp4">
             Your browser does not support the video tag.
           </video>
