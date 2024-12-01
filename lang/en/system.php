@@ -125,6 +125,7 @@ return
                 'total_users'                        => 'Total Admin',
                 'recent_users'                       => 'Recent Admin',
                 'recent_restaurants'                 => 'Recent Stores',
+                'recent_stories'                 => 'Recent Stories',
                 'recent_categories'                  => 'Recent Categories',
                 'recent_foods'                       => 'Recent Products',
                 'shortcuts'                          => 'Keybord Shortcuts',

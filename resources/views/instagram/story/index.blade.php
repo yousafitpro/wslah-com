@@ -1,7 +1,7 @@
 <div class="card">
 
     <div class="card-header align-items-center d-flex">
-        <h4 class="card-title mb-0 flex-grow-1">{{ __('system.dashboard.recent_restaurants') }}</h4>
+        <h4 class="card-title mb-0 flex-grow-1">{{ __('system.dashboard.recent_stories') }}</h4>
 
     </div><!-- end card header -->
 
