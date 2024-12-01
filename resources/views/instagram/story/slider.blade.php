@@ -13,8 +13,33 @@
         opacity: 1;
       }
     }
+    .carousel-fade .carousel-item {
+ opacity: 0;
+ transition-duration: .6s;
+ transition-property: opacity;
+}
+
+.carousel-fade  .carousel-item.active,
+.carousel-fade  .carousel-item-next.carousel-item-left,
+.carousel-fade  .carousel-item-prev.carousel-item-right {
+  opacity: 1;
+}
+
+.carousel-fade .active.carousel-item-left,
+.carousel-fade  .active.carousel-item-right {
+ opacity: 0;
+}
+
+.carousel-fade  .carousel-item-next,
+.carousel-fade .carousel-item-prev,
+.carousel-fade .carousel-item.active,
+.carousel-fade .active.carousel-item-left,
+.carousel-fade  .active.carousel-item-prev {
+ transform: translateX(0);
+ transform: translate3d(0, 0, 0);
+}
   </style>
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-bs-interval="{{$rest->animation_duration*1000}}">
+<div id="carouselExampleIndicators" class="carousel slide {{$rest->animation_type=="fade-in"?'carousel-fade':''}}" data-ride="carousel" data-bs-interval="{{$rest->animation_duration*1000}}">
 
     <div class="carousel-inner">
 
