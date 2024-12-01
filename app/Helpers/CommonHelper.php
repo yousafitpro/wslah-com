@@ -105,8 +105,9 @@ function get_user_id_from_menu()
 
 function instagram_stories_for_store()
 {
-
-    $stories=InstagramStory::where('user_id',get_user_id_from_menu())->get();
+    $user_id=get_user_id_from_menu();
+    $res=Restaurant::where('user_id',$user_id)->first();
+    $stories=InstagramStory::where('user_id',$user_id)->orderBy('created_at', 'desc')->limit($res->number_posts)->get();
    foreach($stories as $item)
    {
     $item->payload=json_decode($item->payload,true);

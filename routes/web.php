@@ -17,11 +17,15 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
  */
+// Route::group(['prefix' => 'instagram'], function () {
 Route::get('instagram/accounts', [InstagramController::class, 'instagramAccounts']);
 Route::get('instagram/instagram-accounts-fetch-stories-job', [InstagramController::class, 'instagramAccountsFetchStoriesJob']);
 Route::get('instagram/instagram-accounts-exchange-token-job', [InstagramController::class, 'instagramAccountsExchangeTokensJob']);
 Route::get('instagram/stories', [InstagramController::class, 'index']);
 Route::get('instagram/reels', [InstagramController::class, 'instagramReels']);
+Route::get('instagram/story-setting', [InstagramController::class, 'sotry_seting']);
+Route::post('instagram/story-setting', [InstagramController::class, 'sotry_seting_update']);
+// });
 //  test return view adasd
 Route::get('test-1', function () {
     (new InstagramController())->exchangeToken(27);

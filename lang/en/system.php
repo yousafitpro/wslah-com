@@ -107,8 +107,13 @@ return
                 'user_name'                                       => 'Username',
                 'intro_video_url'                                 => 'Video URL',
                 'script_code'                                     => 'Script Code',
+                'animation_type'                                     => 'Animation Type',
+                'number_posts'                                     => 'Number Of Posts',
+                'animation_duration'                                     => 'Animation Duration',
+                'time_duration'                                     => 'Time Duration',
                 'add_text'                                     => 'Caption (AR)',
                 'caption_en'                                     => 'Caption (EN)',
+                'story_settings'                                     => 'Story Settings',
             ),
         'theme'           =>
             array(

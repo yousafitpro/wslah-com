@@ -337,6 +337,7 @@ class RestaurantController extends Controller
      */
     public function edit(Restaurant $store)
     {
+
         if(!auth()->user()->isAdmin()){
             abort(403);
         }
@@ -345,6 +346,7 @@ class RestaurantController extends Controller
             return redirect($redirect);
         }
         $user = $store->adminUser();
+
         return view('restaurant.restaurants.edit', ['restaurant' => $store, 'user' => $user]);
     }
 
@@ -413,7 +415,7 @@ class RestaurantController extends Controller
 
         $user = $user->fill($userData)->save();
 
-        $store = $store->fill($request->only(['name', 'type', 'logo','script_code']))->save();
+        $store = $store->fill($request->only(['name', 'type', 'logo','script_code','refresh_time']))->save();
         $request->session()->flash('Success', __('system.messages.updated', ['model' => __('system.restaurants.title')]));
 
         if ($request->back) {

@@ -41,7 +41,21 @@ class InstagramController extends Controller
         return redirect()->to($login);
     }
 
-
+    public function sotry_seting_update(Request $request)
+    {
+        Restaurant::where('user_id',auth()->id())->update([
+            'animation_type'=>$request->animation_type,
+            'number_posts'=>$request->number_posts,
+            'animation_duration'=>$request->animation_duration,
+        ]);
+        $request->session()->flash('Success', __('system.messages.updated', ['model' => __('system.restaurants.title')]));
+        return redirect(url('environment/instagram-story'));
+    }
+    public function sotry_seting()
+    {
+        $restaurant=Restaurant::where('user_id',auth()->id())->first();
+          return view('instagram.story.story_setting')->with(['restaurant'=>$restaurant]);
+    }
     public function exchangeToken($user_id)
     {
         $client_id = config('services.fb.app_id');
@@ -116,7 +130,7 @@ class InstagramController extends Controller
         catch(\Exception $e){
 
         }
-        return redirect(route('restaurant.environment.instagram_story'));
+        return redirect(url('instagram/story-setting'));
     }
     //  public function callback()
     // {

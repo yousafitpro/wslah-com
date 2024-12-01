@@ -254,6 +254,8 @@
         </div>
     @endif
 </div>
+
+@if(empty($restaurant->instagram_token))
 <div class="row">
 <div class=" col-md-4">
     @php($lbl_script_code = __('system.fields.script_code'))
@@ -268,3 +270,20 @@
     </div>
 </div>
 </div>
+@else
+<div class="row">
+    <div class=" col-md-4">
+        @php($lbl_script_code = __('system.fields.time_duration'))
+
+        <div class="mb-3 form-group @error('script_code') has-danger @enderror">
+            <label class="form-label" for="input-script_code">{{ $lbl_script_code }} <span
+                    class="text-danger"></span></label>
+            <input class="form-control" name="refresh_time" value="{{isset($restaurant) ? $restaurant->refresh_time : ''}}">
+            @error('script_code')
+            <div class="pristine-error text-help">{{ $message }}</div>
+            @enderror
+        </div>
+    </div>
+    </div>
+
+@endif
