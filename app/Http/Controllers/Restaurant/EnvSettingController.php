@@ -7,6 +7,7 @@ use App\Models\Food;
 use App\Models\RestaurantsIntroVideos;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Models\InstagramStory;
 use App\Models\Restaurant;
 use App\Models\Setting;
 use Illuminate\Mail\Mailer;
@@ -47,9 +48,10 @@ class EnvSettingController extends Controller {
         // } else
         // {
             $restaurant = $user->restaurant;
-
+            $stories=InstagramStory::where('user_id',auth()->user()->id)->get();
             return view('restaurant.settings.instagram', [
                 'row' => $restaurant,
+                'stories'=>$stories
             ]);
         // }
     }

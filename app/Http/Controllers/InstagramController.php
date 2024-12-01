@@ -9,6 +9,7 @@ use App\Models\InstagramStory;
 
 class InstagramController extends Controller
 {
+
     public function index()
     {
         // $permissions = [
