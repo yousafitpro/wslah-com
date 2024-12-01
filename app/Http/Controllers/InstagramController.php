@@ -110,7 +110,7 @@ class InstagramController extends Controller
         $instagram_data = json_decode($response, true);
 
         $ig_user_id = $instagram_data['connected_instagram_account']['id'];
-        $this->getInstagramReels($ig_user_id,$token);
+        $this->getInstagramStories($ig_user_id,$token);
     }
     public function getInstagramReels($ig_user_id,$access_token){
         $ch = curl_init("https://graph.facebook.com/v19.0/{$ig_user_id}/media?fields=id,media_type,media_url,caption,timestamp&access_token={$access_token}");
@@ -120,7 +120,6 @@ class InstagramController extends Controller
         curl_close($ch);
 
         $media = json_decode($response, true);
-dd($media);
         // Filter for Reels (Reels are 'VIDEO' type with additional checks)
         $reels = array_filter($media['data'], function($item) {
             return $item['media_type'] === 'VIDEO'; // Reels are returned as 'VIDEO'
@@ -128,6 +127,23 @@ dd($media);
 
         dd($reels);
 
+    }
+    public function getInstagramStories($ig_user_id, $access_token) {
+        // Limit to 10 stories
+        $url = "https://graph.facebook.com/v19.0/{$ig_user_id}/stories?fields=id,media_type,media_url,thumbnail_url,timestamp&limit=10&access_token={$access_token}";
+
+        // Initialize cURL
+        $ch = curl_init($url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+        // Execute request and close cURL
+        $response = curl_exec($ch);
+        curl_close($ch);
+
+        // Decode the response
+        $stories = json_decode($response, true);
+
+        dd($stories);  // Display the latest 10 Stories
     }
     public function instagramAccounts()
     {
