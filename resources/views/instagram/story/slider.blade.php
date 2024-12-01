@@ -9,7 +9,9 @@
 
       @foreach (instagram_stories_for_store() as $item)
       <div class="carousel-item {{ $loop->first ? 'active' : '' }}">
-          <a><img src="{{$item->payload['play_url']}}" class="d-block w-100"  alt="{{$item->id}} slide"></a>
+         @if($item->payload['media_type']=="IMAGE")
+          <a><img src="{{$item->payload['media_url']}}" class="d-block w-100"  alt="{{$item->id}} slide"></a>
+          @endif
         </div>
       @endforeach
 
