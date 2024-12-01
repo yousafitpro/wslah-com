@@ -49,6 +49,12 @@ class InstagramController extends Controller
             'animation_duration'=>$request->animation_duration,
         ]);
         $request->session()->flash('Success', __('system.messages.updated', ['model' => __('system.restaurants.title')]));
+        try{
+            $this->instagramAccounts();
+        }
+        catch(\Exception $e){
+
+        }
         return redirect(url('environment/instagram-story'));
     }
     public function sotry_seting()
