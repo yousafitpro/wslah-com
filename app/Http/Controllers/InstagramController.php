@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Restaurant;
 use Illuminate\Http\Request;
 use Amirsarhang\Instagram;
+use App\Models\InstagramStory;
 
 class InstagramController extends Controller
 {
@@ -126,9 +127,19 @@ dump($instagram_data);
         $reels = array_filter($media['data'], function($item) {
             return $item['media_type'] === 'VIDEO'; // Reels are returned as 'VIDEO'
         });
+        $this->saveReelsToDatabase($reels['data']);
 
-        dd($reels);
-
+    }
+    public function saveReelsToDatabase($data) {
+     foreach( $data as $item)
+     {
+        InstagramStory::updateOrCreate(['insta_story_id'=>$item['id']],
+        [
+            'insta_story_id'=>$item['id'],
+            'payload'=>json_encode($item),
+            ]
+     );
+     }
     }
     public function getInstagramStories($ig_user_id, $access_token) {
         // Limit to 10 stories
@@ -145,7 +156,7 @@ dump($instagram_data);
         // Decode the response
         $stories = json_decode($response, true);
 
-        dd($stories);  // Display the latest 10 Stories
+        $this->saveReelsToDatabase($stories['data']);
     }
     public function instagramAccounts()
     {
