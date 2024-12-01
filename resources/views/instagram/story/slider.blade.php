@@ -1,20 +1,37 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<style>
+    .fade-in {
+      opacity: 0;                    /* Start invisible */
+      animation: fadeIn 1.5s ease-in forwards;  /* Apply the fadeIn animation */
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-bs-interval="{{$rest->animation_duration*1000}}">
 
     <div class="carousel-inner">
 
       @foreach (instagram_stories_for_store() as $item)
       <div class="carousel-item {{ $loop->first ? 'active' : '' }}">
          @if($item->payload['media_type']=="IMAGE")
-          <a><img src="{{$item->payload['media_url']}}" class="d-block w-100"  alt="{{$item->id}} slide"></a>
+
+          <a><img src="{{$item->payload['media_url']}}" class="d-block w-100 {{$rest->animation_type=="fade-in"?'fade-in':''}}"  alt="{{$item->id}} slide"></a>
           @elseif ($item->payload['media_type']=="VIDEO")
           @if(isset($item->payload['media_url']))
-          <video class="d-block w-100" autoplay muted loop controls>
+
+          <video class="d-block w-100 {{$rest->animation_type=="fade-in"?'fade-in':''}}" autoplay muted loop controls>
             <source src="{{ $item->payload['media_url'] }}" type="video/mp4">
             Your browser does not support the video tag.
           </video>
           @elseif(isset($item->payload['thumbnail_url']))
-          <a><img src="{{$item->payload['thumbnail_url']}}" class="d-block w-100"  alt="{{$item->id}} slide"></a>
+          <a><img src="{{$item->payload['thumbnail_url']}}" class="d-block w-100 {{$rest->animation_type=="fade-in"?'fade-in':''}}"  alt="{{$item->id}} slide"></a>
           @endif
           @else
           @endif

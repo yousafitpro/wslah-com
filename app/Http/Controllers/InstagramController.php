@@ -46,7 +46,7 @@ class InstagramController extends Controller
         Restaurant::where('user_id',auth()->id())->update([
             'animation_type'=>$request->animation_type,
             'number_posts'=>$request->number_posts,
-            'animation_duration'=>$request->animation_duration,
+            'animation_duration'=>$request->animation_duration=='0'?1:$request->animation_duration,
         ]);
         $request->session()->flash('Success', __('system.messages.updated', ['model' => __('system.restaurants.title')]));
         try{

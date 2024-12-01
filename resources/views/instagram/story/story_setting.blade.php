@@ -46,7 +46,7 @@
                                 @php($lbl_food_price = __('system.fields.animation_duration'))
                                 <label class="form-label" for="price-mask">{{ $lbl_food_price }} <span class="text-danger"></span></label>
 
-                    <input type="range" name="animation_duration" class="form-range" id="customRange" min="0" max="10" value="{{$restaurant->animation_duration}}">
+                    <input type="range" name="animation_duration" class="form-range" id="customRange" min="1" max="10" value="{{$restaurant->animation_duration}}">
                             </div>
                         </div>
                     </div>

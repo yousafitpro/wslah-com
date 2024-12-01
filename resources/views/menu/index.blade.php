@@ -215,6 +215,7 @@
         @if ($is_vertical == 1)
             @include('menu.vertical')
         @else
+
             @include('menu.horizontal')
         @endif
     </main>
