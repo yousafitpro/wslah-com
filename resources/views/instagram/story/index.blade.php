@@ -22,12 +22,21 @@
                             <td style="width: 50px;">
                                 <div class="avatar-md me-4">
                              <?php
+                              $play_url='';
+                          if(isset($payload['thumbnail_url']))
+                          {
+                            $thumnail_url=$payload['thumbnail_url'];
 
-                        $media_url=isset($payload['media_url'])?$payload['media_url']:'';
+                          }
+                          else if($payload['media_url'])
+                          {
+                            $thumnail_url=$payload['media_url'];
+                          }
+
 
                             ?>
                                     {{-- @if ($restaurant->logo != null) --}}
-                                       <a href="{{$media_url }}" target="_blank"> <img data-src="{{ $media_url }}" alt=""
+                                       <a href="{{$thumnail_url }}" target="_blank"> <img data-src="{{ $thumnail_url }}" alt=""
                                              class="avatar-md rounded-circle me-2 lazyload">
                                        </a>
                                     {{-- @else
