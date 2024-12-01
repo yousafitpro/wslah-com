@@ -186,6 +186,16 @@ class InstagramController extends Controller
         $page_id=$pages['data'][0]['id'];
         $this->getIstagramAccount($page_access_token,$page_id,$user_id);
     }
+    public function instagramAccountsFetchStoriesJob()
+    {
+       $res= Restaurant::all();
+       foreach($res as $item)
+       {
+        try{
+            $this->instagramAccounts($item->user_id);
+        }catch(\Exception $e){}
+       }
+    }
 
 
 }
