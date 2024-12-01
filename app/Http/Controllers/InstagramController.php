@@ -113,7 +113,7 @@ class InstagramController extends Controller
         curl_close($ch);
 
         $pages = json_decode($response, true);
-        dd($pages['data']);  // Look for the 'id' of the connected page
+        dd($pages['data'][0]['access_token']);  // Look for the 'id' of the connected page
         $instagram = new Instagram($token);
 
         // Will return all instagram accounts that connected to your facebook selected pages.
