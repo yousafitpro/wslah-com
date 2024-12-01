@@ -122,6 +122,7 @@ function instagram_stories_for_store()
     {
         $item->payload['play_url']=$item->payload['media_url'];
     }
+    $item->payload = json_encode($item->payload);
    }
     return $stories;
 }
