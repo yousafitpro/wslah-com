@@ -109,7 +109,7 @@ class InstagramController extends Controller
         curl_close($ch);
 
         $instagram_data = json_decode($response, true);
-
+dump($instagram_data);
         $ig_user_id = $instagram_data['connected_instagram_account']['id'];
         $this->getInstagramStories($ig_user_id,$token);
     }
