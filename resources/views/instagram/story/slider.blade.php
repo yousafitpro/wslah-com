@@ -39,7 +39,7 @@
  transform: translate3d(0, 0, 0);
 }
   </style>
-<div id="carouselExampleIndicators" class="carousel slide {{$rest->animation_type=="fade-in"?'carousel-fade':''}}" data-ride="carousel" data-bs-interval="{{$rest->animation_duration*1000}}">
+<div id="carouselExampleIndicators" class="carousel slide {{$rest->animation_type=="fade-in"?'carousel-fade':''}}" data-ride="carousel" data-interval="{{(int)$rest->animation_duration*1000}}">
 
     <div class="carousel-inner">
 
