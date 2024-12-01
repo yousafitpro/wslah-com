@@ -133,9 +133,10 @@ class InstagramController extends Controller
     public function saveReelsToDatabase($data) {
      foreach( $data as $item)
      {
-        InstagramStory::updateOrCreate(['insta_story_id'=>$item['id']],
+        InstagramStory::updateOrCreate(['insta_story_id'=>$item['id'],'user_id'=>auth()->user()->id],
         [
             'insta_story_id'=>$item['id'],
+            'user_id'=>auth()->user()->id,
             'payload'=>json_encode($item),
             ]
      );
