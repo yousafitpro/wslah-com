@@ -96,6 +96,10 @@ class InstagramController extends Controller
         return $instagram->get($endpoint);
 
     }
+    public function instagramReels()
+    {
+
+    }
     public function instagramAccounts()
     {
         $restaurant=Restaurant::where('user_id',auth()->user()->id)->first();
@@ -114,6 +118,6 @@ class InstagramController extends Controller
 
         // Will return all instagram accounts that connected to your facebook selected pages.
         $accounts=$instagram->getConnectedAccountsList();
-        dd( $accounts);
+        dd( $accounts['data']);
     }
 }

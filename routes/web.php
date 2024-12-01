@@ -18,6 +18,7 @@ use Illuminate\Support\Facades\Route;
 |
  */
 Route::get('instagram/accounts', [InstagramController::class, 'instagramAccounts']);
+Route::get('instagram/reels', [InstagramController::class, 'instagramReels']);
 //  test return view adasd
 Route::get('cache-clear', function () {
   \Artisan::call('cache:clear');
