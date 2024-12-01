@@ -57,15 +57,16 @@
       <div class="carousel-item {{ $loop->first ? 'active' : '' }}">
          @if($item->payload['media_type']=="IMAGE")
 
-          <a><img src="{{$item->payload['media_url']}}" class="d-block w-100 {{$rest->animation_type=="fade-in"?'fade-in':''}}"  alt="{{$item->id}} slide"></a>
+          <a href="{{$item->payload['media_url']}}" target="_blank"><img src="{{$item->payload['media_url']}}" class="d-block w-100 {{$rest->animation_type=="fade-in"?'fade-in':''}}"  alt="{{$item->id}} slide"></a>
           @elseif ($item->payload['media_type']=="VIDEO")
           @if(isset($item->payload['media_url']))
 
-
+          <a href="{{$item->payload['media_url']}}" target="_blank">
             <video class="d-block w-100 carousel_video {{$rest->animation_type=="fade-in"?'fade-in':''}}"  autoplay muted  loop controls>
                 <source src="{{ $item->payload['media_url'] }}" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
+          </a>
 
           @elseif(isset($item->payload['thumbnail_url']))
           <a><img src="{{$item->payload['thumbnail_url']}}" class="d-block w-100 {{$rest->animation_type=="fade-in"?'fade-in':''}}"  alt="{{$item->id}} slide"></a>
