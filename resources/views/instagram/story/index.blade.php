@@ -39,15 +39,15 @@
                             <td>
                                 <div>
                                     <h5 class="font-size-15"><a
-                                            class="text-dark">{{ $story['id'] }}</a></h5>
-                                    <span class="text-muted"></span>
+                                            class="text-dark">{{ $payload['id'] }}</a></h5>
+                                    <span class="text-muted">{{ $payload['media_type'] }}</span>
                                 </div>
                             </td>
 
                             <td>
                                 <div class="text-end">
 
-                                    <span class="text-muted"></span>
+                                    <span class="text-muted">{{ \Carbon\Carbon::parse($payload['timestamp'])->diffForHumans() }}</span>
                                 </div>
                             </td>
                         </tr>
