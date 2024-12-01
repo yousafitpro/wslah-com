@@ -14,7 +14,7 @@
 
 
                     <?php
-                    $story=json_decode($story,true);
+                    $payload=json_decode($story->payload,true);
 
                     ?>
                         <tr>
