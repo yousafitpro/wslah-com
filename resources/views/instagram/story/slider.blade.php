@@ -38,6 +38,15 @@
  transform: translateX(0);
  transform: translate3d(0, 0, 0);
 }
+.carousel-item{
+
+    width: 97% !important;
+
+}
+.carousel_video{
+    border-top-right-radius: 12px !important;
+
+}
   </style>
 <div id="carouselExampleIndicators" class="carousel slide {{$rest->animation_type=="fade-in"?'carousel-fade':''}}" data-ride="carousel" data-interval="{{(int)$rest->animation_duration*1000}}">
 
@@ -51,10 +60,12 @@
           @elseif ($item->payload['media_type']=="VIDEO")
           @if(isset($item->payload['media_url']))
 
-          <video class="d-block w-100 {{$rest->animation_type=="fade-in"?'fade-in':''}}" autoplay  loop controls>
-            <source src="{{ $item->payload['media_url'] }}" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
+
+            <video class="d-block w-100 carousel_video {{$rest->animation_type=="fade-in"?'fade-in':''}}"  autoplay  loop controls>
+                <source src="{{ $item->payload['media_url'] }}" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+
           @elseif(isset($item->payload['thumbnail_url']))
           <a><img src="{{$item->payload['thumbnail_url']}}" class="d-block w-100 {{$rest->animation_type=="fade-in"?'fade-in':''}}"  alt="{{$item->id}} slide"></a>
           @endif
