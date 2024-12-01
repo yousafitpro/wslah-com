@@ -80,7 +80,12 @@ class InstagramController extends Controller
             'fb_user'=>json_encode($this->userInfo($response_data['access_token']))
         ]);
         $request->session()->flash('Success', __('system.messages.change_success_message', ['model' =>"Successfully Connected"]));
-        $this->instagramAccounts();
+        try{
+            $this->instagramAccounts();
+        }
+        catch(\Exception $e){
+
+        }
         return redirect(route('restaurant.environment.instagram_story'));
     }
     //  public function callback()
