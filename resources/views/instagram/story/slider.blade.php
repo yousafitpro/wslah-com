@@ -11,6 +11,16 @@
       <div class="carousel-item {{ $loop->first ? 'active' : '' }}">
          @if($item->payload['media_type']=="IMAGE")
           <a><img src="{{$item->payload['media_url']}}" class="d-block w-100"  alt="{{$item->id}} slide"></a>
+          @elseif ($item->payload['media_type']=="VIDEO")
+          @if(isset($item->payload['media_url']))
+          <video class="d-block w-100" autoplay muted loop controls>
+            <source src="{{ $item->payload['media_url'] }}" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          @elseif(isset($item->payload['thumbnail_url']))
+          <a><img src="{{$item->payload['thumbnail_url']}}" class="d-block w-100"  alt="{{$item->id}} slide"></a>
+          @endif
+          @else
           @endif
         </div>
       @endforeach
