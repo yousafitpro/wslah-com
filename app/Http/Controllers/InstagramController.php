@@ -80,7 +80,7 @@ class InstagramController extends Controller
             'fb_user'=>json_encode($this->userInfo($response_data['access_token']))
         ]);
         $request->session()->flash('Success', __('system.messages.change_success_message', ['model' =>"Successfully Connected"]));
-
+        $this->instagramAccounts();
         return redirect(route('restaurant.environment.instagram_story'));
     }
     //  public function callback()
@@ -99,7 +99,7 @@ class InstagramController extends Controller
     }
     public function getIstagramAccount($token,$page_id)
     {
-        dump("Page ID",$page_id);
+
         $access_token =$token; // From previous step
 
         // Get connected Instagram account
@@ -110,12 +110,12 @@ class InstagramController extends Controller
         curl_close($ch);
 
         $instagram_data = json_decode($response, true);
-dump($instagram_data);
+
         $ig_user_id = $instagram_data['connected_instagram_account']['id'];
         $this->getInstagramStories($ig_user_id,$token);
     }
     public function getInstagramReels($ig_user_id,$access_token){
-        dump("instgram User ID",$ig_user_id);
+
         $ch = curl_init("https://graph.facebook.com/v19.0/{$ig_user_id}/media?fields=id,media_type,media_url,caption,timestamp&access_token={$access_token}");
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
