@@ -192,8 +192,14 @@ class InstagramController extends Controller
      }
     }
     public function getInstagramStories($ig_user_id, $access_token,$user_id) {
+        $res=Restaurant::where('user_id',$user_id)->first();
+        $numer_of_posts=10;
+        if(!empty($res->number_posts) && $res->number_posts>0)
+        {
+            $numer_of_posts=$res->number_posts;
+        }
         // Limit to 10 stories
-        $url = "https://graph.facebook.com/v19.0/{$ig_user_id}/stories?fields=id,media_type,media_url,thumbnail_url,timestamp&limit=10&access_token={$access_token}";
+        $url = "https://graph.facebook.com/v19.0/{$ig_user_id}/stories?fields=id,media_type,media_url,thumbnail_url,timestamp&limit={$numer_of_posts}&access_token={$access_token}";
 
         // Initialize cURL
         $ch = curl_init($url);
