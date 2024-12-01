@@ -96,12 +96,11 @@ class InstagramController extends Controller
         return $instagram->get($endpoint);
 
     }
-    public function instagramReels($token,$page_id)
+    public function getIstagramAccount($token,$page_id)
     {
         $access_token =$token; // From previous step
 
         // Get connected Instagram account
-      dump($access_token,$page_id);
         $ch = curl_init("https://graph.facebook.com/v19.0/{$page_id}?fields=connected_instagram_account&access_token={$access_token}");
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
@@ -109,8 +108,26 @@ class InstagramController extends Controller
         curl_close($ch);
 
         $instagram_data = json_decode($response, true);
-        dd($instagram_data);
+
         $ig_user_id = $instagram_data['connected_instagram_account']['id'];
+        $this->getInstagramReels($ig_user_id,$token);
+    }
+    public function getInstagramReels($ig_user_id,$access_token){
+        $ch = curl_init("https://graph.facebook.com/v19.0/{$ig_user_id}/media?fields=id,media_type,media_url,caption,timestamp&access_token={$access_token}");
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+        $response = curl_exec($ch);
+        curl_close($ch);
+
+        $media = json_decode($response, true);
+dd($media);
+        // Filter for Reels (Reels are 'VIDEO' type with additional checks)
+        $reels = array_filter($media['data'], function($item) {
+            return $item['media_type'] === 'VIDEO'; // Reels are returned as 'VIDEO'
+        });
+
+        dd($reels);
+
     }
     public function instagramAccounts()
     {
@@ -127,7 +144,7 @@ class InstagramController extends Controller
   // Look for the 'id' of the connected page
         $page_access_token=$pages['data'][0]['access_token'];
         $page_id=$pages['data'][0]['id'];
-        $this->instagramReels($page_access_token,$page_id);
+        $this->getIstagramAccount($page_access_token,$page_id);
     }
 
 
