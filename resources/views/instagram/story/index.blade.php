@@ -21,9 +21,13 @@
                         <tr>
                             <td style="width: 50px;">
                                 <div class="avatar-md me-4">
+                             <?php
 
+                        $media_url=isset($payload['media_url'])?:'';
+
+                            ?>
                                     {{-- @if ($restaurant->logo != null) --}}
-                                       <a href="{{ asset($payload['media_url']) }}" target="_blank"> <img data-src="{{ asset($payload['media_url']) }}" alt=""
+                                       <a href="{{$media_url }}" target="_blank"> <img data-src="{{ $media_url }}" alt=""
                                              class="avatar-md rounded-circle me-2 lazyload">
                                        </a>
                                     {{-- @else
