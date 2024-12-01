@@ -62,7 +62,10 @@ class InstagramController extends Controller
 
             // Decode the long-lived token response
             $long_lived_data = json_decode($long_lived_response, true);
-            dd($long_lived_data);
+            $long_lived_token = $long_lived_data['access_token'];
+            Restaurant::where('user_id', $user_id)->update([
+                'instagram_token' => $long_lived_token
+            ]);
             $long_lived_token = $long_lived_data['access_token'];
     }
 
