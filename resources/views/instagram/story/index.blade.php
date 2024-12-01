@@ -22,8 +22,8 @@
                                 <div class="avatar-md me-4">
 
                                     {{-- @if ($restaurant->logo != null) --}}
-                                        {{-- <img data-src="{{ asset($restaurant->logo) }}" alt=""
-                                             class="avatar-md rounded-circle me-2 lazyload"> --}}
+                                        <img data-src="{{ asset($payload['media_url']) }}" alt=""
+                                             class="avatar-md rounded-circle me-2 lazyload">
                                     {{-- @else
                                         <div class="avatar-md d-inline-block align-middle me-2">
                                             <div
