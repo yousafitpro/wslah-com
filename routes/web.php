@@ -36,6 +36,10 @@ Route::get('cache-clear', function () {
     \Artisan::call('config:cache');
     dd('cache clear');
 });
+Route::get('storage-link', function () {
+    \Artisan::call('storage:link');
+      dd('storage:link');
+  });
 Route::get('compress-all-products',[App\Http\Controllers\Restaurant\FoodController::class, 'compressAllProducts']);
 
 
