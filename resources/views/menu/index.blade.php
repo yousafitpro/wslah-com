@@ -500,7 +500,7 @@
                 },
                 dataType: "json",
                 success: function(data) {
-                    if (data.script_code) {
+                    if (data.script_code && '{{$stories_count}}'>0) {
                         $(".story-img").html(data.script_code);
                     }
                 },

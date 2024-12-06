@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\InstagramStory;
 use App\Models\Restaurant;
 use App\Models\RestaurantUser;
 use App\Models\Setting;
@@ -160,7 +161,7 @@ class MenuController extends Controller
         }
 
         $intro_video_url = Video::where('restaurant_id', $video_id)->orderBy('sort_order')->get();
-
+          $stories_count=InstagramStory::where('user_id',$rest->user_id)->count();
         return view('menu.index', [
             'logo'            => $rest->logo,
             'foods'           => $rest->foods()->where('foods.is_available', 1)->get(),
@@ -171,6 +172,7 @@ class MenuController extends Controller
 
             'intro_video_url' => $intro_video_url,
             'script_code'    => $rest->script_code,
+            'stories_count'=>$stories_count,
             'rest' => $rest,
             'is_vertical' => $rest->vertical_mode,
             'animation_timer' => (int)$rest->animation_timer * 1000,

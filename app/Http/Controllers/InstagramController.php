@@ -6,6 +6,7 @@ use App\Models\Restaurant;
 use Illuminate\Http\Request;
 use Amirsarhang\Instagram;
 use App\Models\InstagramStory;
+use Carbon\Carbon;
 
 class InstagramController extends Controller
 {
@@ -193,6 +194,8 @@ class InstagramController extends Controller
             'insta_story_id'=>$item['id'],
             'user_id'=>$user_id,
             'payload'=>json_encode($item),
+            'created_at'=>Carbon::parse($item['timestamp'])->format('Y-m-d H:i:s'),
+            'updated_at'=>Carbon::parse($item['timestamp'])->format('Y-m-d H:i:s')
             ]
      );
      }

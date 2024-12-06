@@ -62,7 +62,7 @@
           @if(isset($item->payload['media_url']))
 
           <a href="{{$item->payload['media_url']}}" target="_blank">
-            <video class="d-block w-100 carousel_video {{$rest->animation_type=="fade-in"?'fade-in':''}}"  autoplay muted  loop controls>
+            <video class="d-block w-100 carousel_video {{$rest->animation_type=="fade-in"?'fade-in':''}}"  autoplay muted  loop >
                 <source src="{{ $item->payload['media_url'] }}" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
