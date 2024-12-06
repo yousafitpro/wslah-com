@@ -48,7 +48,9 @@ class EnvSettingController extends Controller {
         // } else
         // {
             $restaurant = $user->restaurant;
-            $stories=InstagramStory::where('user_id',auth()->user()->id)->get();
+            $stories=InstagramStory::where('user_id',auth()->user()->id)
+            ->orderBy('updated_at', 'desc')
+            ->get();
             return view('restaurant.settings.instagram', [
                 'row' => $restaurant,
                 'stories'=>$stories
