@@ -107,7 +107,9 @@ function instagram_stories_for_store()
 {
     $user_id=get_user_id_from_menu();
     $res=Restaurant::where('user_id',$user_id)->first();
-    $stories=InstagramStory::where('user_id',$user_id)->orderBy('created_at', 'desc')->limit($res->number_posts)->get();
+    $stories=InstagramStory::where('user_id',$user_id)
+    ->orderBy('updated_at', 'desc')
+    ->limit($res->number_posts)->get();
    foreach($stories as $item)
    {
 
