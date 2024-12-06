@@ -63,6 +63,13 @@ class InstagramController extends Controller
         $restaurant=Restaurant::where('user_id',auth()->id())->first();
           return view('instagram.story.story_setting')->with(['restaurant'=>$restaurant]);
     }
+    public function sotry_history()
+    {
+        $stories=InstagramStory::where('user_id',auth()->user()->id)
+        ->orderBy('updated_at', 'desc')
+            ->get();
+          return view('instagram.story.story_history')->with(['stories'=>$stories]);
+    }
     public function exchangeToken($user_id)
     {
         $client_id = config('services.fb.app_id');

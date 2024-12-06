@@ -22,7 +22,17 @@
                     </div>
 
                     <div class="col-md-6 col-xl-6 text-end add-new-btn-parent">
-
+                        <div class="dropdown">
+                            <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="zoom:1.2">
+                                <svg width="12" height="14" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                                <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                                </svg>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="{{url('instagram/story-setting')}}" >Setting</a></li>
+                                <li><a class="dropdown-item" href="{{url('instagram/story-history')}}" >History</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -37,15 +47,11 @@
                             <img src="{{asset('assets/icons/instagram.png')}}" style="width:20px;margin-right:10px">
                             @if(empty($row->instagram_token))Sign in with instagram @else Reconnect instagram  @endif</a>
                             @if(!empty($row->instagram_token))
-                            <a href="{{url('instagram/story-setting')}}" target="_blank"><small>{{$fb_user['name']}}(#{{$fb_user['id']}})</small></a>
+                            <a href="{{url('instagram/story-setting')}}"><small>{{$fb_user['name']}}(#{{$fb_user['id']}})</small></a>
                             @endif
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-12 mt-1 mb-5">
-                     @include('instagram.story.index',['stories',$stories])
-                    </div>
-            </div>
+
             <!-- end card -->
         </div>
     </div>

@@ -24,6 +24,7 @@ Route::get('instagram/instagram-accounts-exchange-token-job', [InstagramControll
 Route::get('instagram/stories', [InstagramController::class, 'index']);
 Route::get('instagram/reels', [InstagramController::class, 'instagramReels']);
 Route::get('instagram/story-setting', [InstagramController::class, 'sotry_seting']);
+Route::get('instagram/story-history', [InstagramController::class, 'sotry_history']);
 Route::post('instagram/story-setting', [InstagramController::class, 'sotry_seting_update']);
 // });
 //  test return view adasd

@@ -1,6 +1,21 @@
 
 <div class="card">
+    <div class="card-header">
 
+        <div class="row">
+            <div class="col-md-6 col-xl-6">
+                <h4 class="card-title">{{ __('system.instagram_story.menu') }}</h4>
+                <div class="page-title-box pb-0 d-sm-flex">
+                    <div class="page-title-right">
+                        <ol class="breadcrumb m-0">
+                            <li class="breadcrumb-item"><a href="{{ url('environment/instagram-story') }}">{{ __('system.instagram_story.menu') }}</a></li>
+                            <li class="breadcrumb-item active">{{ __('system.dashboard.recent_stories_history') }}</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="card-header align-items-center d-flex">
         <h4 class="card-title mb-0 flex-grow-1">{{ __('system.dashboard.recent_stories_history') }}</h4>
 
