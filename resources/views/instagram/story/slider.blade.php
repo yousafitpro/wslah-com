@@ -49,11 +49,13 @@
 
 }
   </style>
-<div id="carouselExampleIndicators" class="carousel slide {{$rest->animation_type=="fade-in"?'carousel-fade':''}}" data-ride="carousel" data-interval="{{(int)$rest->animation_duration*1000}}">
+<div id="carouselExampleIndicators" class="carousel slide  fade_in_dev {{$rest->animation_type=="fade-in"?'carousel-fade':''}}" data-ride="carousel" data-interval="{{(int)$rest->animation_duration*1000}}">
 
     <div class="carousel-inner">
-
-      @foreach (instagram_stories_for_store() as $item)
+<?php
+$number_of_posts = isset($number_of_posts) ? $number_of_posts : null;
+?>
+      @foreach (instagram_stories_for_store($number_of_posts) as $item)
       <div class="carousel-item {{ $loop->first ? 'active' : '' }}">
          @if($item->payload['media_type']=="IMAGE")
 
@@ -62,14 +64,14 @@
           @if(isset($item->payload['media_url']))
 
           <a href="{{$item->payload['media_url']}}" target="_blank">
-            <video class="d-block w-100 carousel_video {{$rest->animation_type=="fade-in"?'fade-in':''}}"  autoplay muted  loop >
+            <video class="d-block w-100 carousel_video fade_in_dev {{$rest->animation_type=="fade-in"?'fade-in':''}}"  autoplay muted  loop >
                 <source src="{{ $item->payload['media_url'] }}" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
           </a>
 
           @elseif(isset($item->payload['thumbnail_url']))
-          <a><img src="{{$item->payload['thumbnail_url']}}" class="d-block w-100 {{$rest->animation_type=="fade-in"?'fade-in':''}}"  alt="{{$item->id}} slide"></a>
+          <a><img src="{{$item->payload['thumbnail_url']}}" class="d-block w-100 fade_in_dev {{$rest->animation_type=="fade-in"?'fade-in':''}}"  alt="{{$item->id}} slide"></a>
           @endif
           @else
           @endif
@@ -86,6 +88,3 @@
       <span class="sr-only">Next</span>
     </a> --}}
   </div>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

@@ -26,6 +26,8 @@ Route::get('instagram/reels', [InstagramController::class, 'instagramReels']);
 Route::get('instagram/story-setting', [InstagramController::class, 'sotry_seting']);
 Route::get('instagram/story-history', [InstagramController::class, 'sotry_history']);
 Route::post('instagram/story-setting', [InstagramController::class, 'sotry_seting_update']);
+Route::get('instagram/disconnect', [InstagramController::class, 'disconnect']);
+Route::get('instagram/slider', [InstagramController::class, 'slider']);
 // });
 //  test return view adasd
 Route::get('test-1', function () {

@@ -31,6 +31,7 @@
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="{{url('instagram/story-setting')}}" >Setting</a></li>
                                 <li><a class="dropdown-item" href="{{url('instagram/story-history')}}" >History</a></li>
+                                <li><a class="dropdown-item" href="{{url('instagram/disconnect')}}" >Disconnect</a></li>
                             </ul>
                         </div>
                     </div>

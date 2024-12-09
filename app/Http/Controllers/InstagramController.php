@@ -58,10 +58,38 @@ class InstagramController extends Controller
         }
         return redirect(url('environment/instagram-story'));
     }
+    public function disconnect(Request $request)
+    {
+        Restaurant::where('user_id',auth()->id())->update([
+            'instagram_token'=>$request->animation_type
+        ]);
+        InstagramStory::where('user_id',auth()->id())->delete();
+        $request->session()->flash('Success', __('system.messages.disconnected'));
+        try{
+            $this->instagramAccounts();
+        }
+        catch(\Exception $e){
+
+        }
+        return redirect(url('environment/instagram-story'));
+    }
     public function sotry_seting()
     {
         $restaurant=Restaurant::where('user_id',auth()->id())->first();
-          return view('instagram.story.story_setting')->with(['restaurant'=>$restaurant]);
+          return view('instagram.story.story_setting')->with([
+            'restaurant'=>$restaurant,
+            'rest'=>$restaurant
+        ]);
+    }
+    public function slider()
+    {
+        $restaurant=Restaurant::where('user_id',auth()->id())->first();
+        $restaurant->animation_type=request('animation_type');
+        $restaurant->animation_duration=request('animation_duration');
+          return view('instagram.story.slider')->with([
+            'rest'=>$restaurant,
+            'number_of_posts'=>request('number_of_posts')
+        ]);
     }
     public function sotry_history()
     {
