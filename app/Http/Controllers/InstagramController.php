@@ -81,6 +81,47 @@ class InstagramController extends Controller
             'rest'=>$restaurant
         ]);
     }
+    public function delete_multiple(Request $request)
+    {
+        // Validate the incoming request
+        $request->validate([
+            'ids' => 'required|array',
+            'ids.*' => 'integer', // Ensure each ID is an integer
+        ]);
+
+        // Get the IDs from the request
+        $ids = $request->input('ids');
+
+        try {
+            // Delete records that match the IDs and belong to the authenticated user
+            $deletedCount = InstagramStory::whereIn('id', $ids)
+                ->where('user_id', auth()->user()->id)
+                ->delete();
+
+            // Check if any records were deleted
+            if ($deletedCount > 0) {
+                return response()->json([
+                    'status' => 'success',
+                    'message' => "$deletedCount stories deleted successfully."
+                ]);
+            }
+
+            // No records deleted
+            return response()->json([
+                'status' => 'error',
+                'message' => 'No stories found to delete.',
+            ], 404);
+
+        } catch (\Exception $e) {
+            // Handle unexpected errors
+            return response()->json([
+                'status' => 'error',
+                'message' => 'An error occurred while deleting stories. Please try again.',
+                'error' => $e->getMessage()
+            ], 500);
+        }
+    }
+
     public function slider()
     {
         $restaurant=Restaurant::where('user_id',auth()->id())->first();
